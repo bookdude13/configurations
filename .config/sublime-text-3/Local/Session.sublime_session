@@ -1,0 +1,642 @@
+{
+	"folder_history":
+	[
+		"/home/ryan/Documents/LightShowGit/lightshow-emcee",
+		"/home/ryan/Documents/LightShowGit/lightshow-emcee/plugins"
+	],
+	"last_version": 3083,
+	"last_window_id": 3,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"nex",
+						"next_check_thread"
+					],
+					[
+						"Pla",
+						"Playlist"
+					],
+					[
+						"Play",
+						"PlaylistException"
+					],
+					[
+						"curr",
+						"currentItem"
+					],
+					[
+						"ope",
+						"open_sequence"
+					],
+					[
+						"op",
+						"open_sequence"
+					],
+					[
+						"js",
+						"json_data"
+					],
+					[
+						"play",
+						"Playlist"
+					],
+					[
+						"get",
+						"get_position"
+					],
+					[
+						"vlc",
+						"vlcplayer"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/emcee.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/SequenceExecutor.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/playlists/test.json",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/Playlist.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/SequenceException.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/PlaylistException.py",
+				"/etc/grub.d/40_custom",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/reactor.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/VixenSequence.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/VixenFile.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/settings.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/VixenProfile.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/VixenException.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/globals.py",
+				"/home/ryan/.config/redshift.conf"
+			],
+			"find":
+			{
+				"height": 25.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"dts",
+					"jse",
+					"json",
+					"VF",
+					"time",
+					"traceback",
+					"atexit",
+					"os",
+					"current_sequence",
+					"threading",
+					"vi.",
+					"vi",
+					"vlcmedia",
+					"vi",
+					"get_position",
+					"get_rate"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 25.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 46.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"shutti",
+						"shutting_down"
+					],
+					[
+						"shutt",
+						"shutting_down"
+					],
+					[
+						"shut",
+						"shutdown_all_events"
+					],
+					[
+						"shu",
+						"shutdown_all_event"
+					],
+					[
+						"sh",
+						"shutdown_all_event"
+					],
+					[
+						"star",
+						"_start_thread"
+					],
+					[
+						"se",
+						"sequence_players"
+					],
+					[
+						"req",
+						"_require_state"
+					],
+					[
+						"le",
+						"audio_length"
+					],
+					[
+						"curr",
+						"current_time"
+					],
+					[
+						"aud",
+						"audio_length"
+					],
+					[
+						"vlc",
+						"vlc_player"
+					],
+					[
+						"pos",
+						"set_position"
+					],
+					[
+						"s",
+						"sequence_id"
+					],
+					[
+						"play",
+						"player_state"
+					],
+					[
+						"close",
+						"close_all_event"
+					],
+					[
+						"clo",
+						"close_all_event"
+					],
+					[
+						"seque",
+						"sequence_id"
+					],
+					[
+						"seq",
+						"sequence_id"
+					],
+					[
+						"Se",
+						"SequencePlayer"
+					],
+					[
+						"Plu",
+						"PluginLib"
+					],
+					[
+						"cha",
+						"channel"
+					],
+					[
+						"valueC",
+						"valueChange"
+					],
+					[
+						"overr",
+						"overrides"
+					],
+					[
+						"over",
+						"overrideDatam"
+					],
+					[
+						"nex",
+						"next_check_thread"
+					],
+					[
+						"Pla",
+						"Playlist"
+					],
+					[
+						"Play",
+						"PlaylistException"
+					],
+					[
+						"ope",
+						"open_sequence"
+					],
+					[
+						"op",
+						"open_sequence"
+					],
+					[
+						"js",
+						"json_data"
+					],
+					[
+						"get",
+						"get_position"
+					]
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/playlists"
+			],
+			"file_history":
+			[
+				"/home/ryan/Dropbox/Munchi/API.md",
+				"/home/ryan/Documents/STAT3021/.Rprofile",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/src/Patching/ls2015_new_dec_ryan.yaml",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/src/Patching/ls2015.yaml",
+				"/home/ryan/Dropbox/Light Show Sequencing/Visualizer/2.0_linux.sh",
+				"/home/ryan/Downloads/dropbox_2015.10.28_amd64.deb",
+				"/home/ryan/Dropbox/Light Show Sequencing/2015/setup.unix.sh",
+				"/home/ryan/Dropbox/Light Show Sequencing/2015/setup.linux.sh",
+				"/home/ryan/Desktop/2.0_unix.sh",
+				"/home/ryan/Dropbox/Light Show Sequencing/Visualizer/2.0_mac.command",
+				"/home/ryan/Dropbox/Light Show Sequencing/Visualizer/2.0_unix.sh",
+				"/home/ryan/Dropbox/Light Show Sequencing/2015/setup.mac.command",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/src/emcee.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/src/testing",
+				"/home/ryan/Documents/GoogleCodeJam/q_africa_2010/test",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/src/Players/Player.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/src/pylib/vlc.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/src/Players/SequencePlayer.py",
+				"/home/ryan/Downloads/skype-ubuntu-precise_4.3.0.37-1_i386.deb",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/src/Plugins/plugins.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/src/emcee_cfg.py",
+				"/home/ryan/Documents/emcee_patch",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/.gitignore",
+				"/home/ryan/PlayOnLinux's virtual drives/vixenlights/drive_c/Program Files/Vixen/Sequences/doctorwho16ch.vix",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/emcee.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/src/VixenFiles/VixenSequence.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/src/VixenFiles/VixenProfile.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/src/emceectl.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/playlists/test.json",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/emcee_cfg.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/pylib/PluginLib/plugins.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/Player.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/SequencePlayer.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/SequenceExecutor.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/pylib/vlc.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/Playlist.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/testing.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/pylib/VixenLib/VixenFileDump.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/pylib/VixenLib/VixenProfile.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/pylib/VixenLib/VixenFile.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/pylib/VixenLib/VixenSequence.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/plugins.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/VixenSequence.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/settings.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/ManualControl.py",
+				"/home/ryan/.config/redshift.conf",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/DmxPatchPanel.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/patch.json",
+				"/home/ryan/Downloads/DecodedBase64.bin",
+				"/home/ryan/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/ryan/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/boot/grub/grub.cfg",
+				"/etc/grub.d/30_os-prober",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/SequenceException.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/PlaylistException.py",
+				"/etc/grub.d/40_custom",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/reactor.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/VixenFile.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/VixenProfile.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/VixenException.py",
+				"/home/ryan/Documents/LightShowGit/lightshow-emcee/globals.py"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"117",
+					"115",
+					"114",
+					"113",
+					"86",
+					"116",
+					"86",
+					"vlc.State",
+					"State",
+					"random",
+					"traceback",
+					"threading",
+					"shutdown",
+					"shutting",
+					"shutdown",
+					"events",
+					"close",
+					"vlc_instance",
+					"set_",
+					"getVlcPlayerFromPath",
+					"SequencePlayer",
+					"thread_",
+					"']:\n",
+					"thread_events",
+					"getVlcPlayerFromPath",
+					"is_playing",
+					"thread_running",
+					"threadrunning",
+					"release",
+					"rate",
+					"minlevel",
+					"event",
+					"time",
+					"output",
+					"        ",
+					"object",
+					"self.time",
+					"size",
+					"dts",
+					"jse",
+					"json",
+					"VF",
+					"time",
+					"traceback",
+					"atexit",
+					"os",
+					"current_sequence",
+					"threading",
+					"vi.",
+					"vi",
+					"vlcmedia",
+					"vi",
+					"get_position",
+					"get_rate"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/ryan/Documents/LightShowGit/lightshow-emcee"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,0,0,1366,768",
+			"project": "",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 158.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 3,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

@@ -1,0 +1,16 @@
+VirtualBox GUI VM Selector Window 5.0.4_Ubuntu r102546 linux.amd64 (Sep 11 2015 10:36:51) release log
+00:00:03.177777 Log opened 2015-11-22T01:54:49.192375000Z
+00:00:03.177779 Build Type: release
+00:00:03.177783 OS Product: Linux
+00:00:03.177785 OS Release: 4.2.0-18-generic
+00:00:03.177787 OS Version: #22-Ubuntu SMP Fri Nov 6 18:25:50 UTC 2015
+00:00:03.177824 DMI Product Name: Satellite L755
+00:00:03.177838 DMI Product Version: PSK1WU-1EU04Y
+00:00:03.177984 Host RAM: 7931MB total, 7518MB available
+00:00:03.177988 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:03.177990 Process ID: 1824
+00:00:03.177991 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:03.345027 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:05.196865 GUI: UISelectorWindow: Geometry loaded to: Origin=421x113, Size=770x550
+00:00:05.374950 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:08.780327 GUI: UISelectorWindow: Geometry saved as: Origin=421x113, Size=770x550

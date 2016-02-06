@@ -1,0 +1,549 @@
+                    
+                    
+                    
+Start:              2016/01/15 17:03:49.009 (UTC-6:00)
+Version:            10.0.46203 
+ID:                 0
+Loglevel:           Info (100)
+License:            10000
+Server:             master4.teamviewer.com
+IC:                 1003583770
+CPU:                x86 Family 6 Model 42 Stepping 7, GenuineIntel
+CPU extensions:     g9
+OS:                 Lx Ubuntu 15.10 (32-bit)
+IP:                 192.168.0.5
+Proxy-Settings:     Type=0 IP= User=
+AppPath:            C:\TeamViewer\TeamViewer.exe
+UserAccount:        ryan
+
+2016/01/15 17:09:38.418     8     9 GX0   CBuddyWindow::OnTimer(): [OnlineState] System is back to active
+2016/01/15 17:09:38.785     8     9 GX0   CBuddyWindow::SetAccountVisibilityTimer(): [OnlineState] ResultCB, state changed to: 0
+2016/01/15 17:09:46.864     8     9 GX0   Trying connection to 355528300, mode = 1
+2016/01/15 17:09:46.866     8    42 GX0   CLogin::run()
+2016/01/15 17:09:47.332     8    42 GX0   CLogin::run() leave
+2016/01/15 17:09:51.068     8     9 GX0   Trying connection to 355528300, mode = 1
+2016/01/15 17:09:51.070     8    43 GX0   CLogin::run()
+2016/01/15 17:09:51.415     8    43 GX0   CLogin::run() leave
+2016/01/15 17:15:31.036     8     9 GX0   CBuddyWindow::OnTimer(): [OnlineState] System is idle. TimeUntilIdle: 300 seconds
+2016/01/15 17:15:31.285     8     9 GX0   CBuddyWindow::SetAccountVisibilityTimer(): [OnlineState] ResultCB, state changed to: 2
+2016/01/15 17:15:49.005     8     9 GX0   CMainWindow::TrackIdleTime(): System goes idle. (IdleTime=318032)
+2016/01/15 17:19:15.920     8     9 GX0   RestoreSession: Received online notification
+2016/01/15 17:23:59.115     8     9 GX0   CRestoreSession::RestoreConnection: Restoring RemoteControl-Session
+2016/01/15 17:23:59.116     8     9 GX0   Trying connection to 355528300, mode = 1
+2016/01/15 17:23:59.118     8    44 GX0   CLogin::run()
+2016/01/15 17:23:59.492     8    44 GX0   CLoginClient::NegotiateVersionClient()
+2016/01/15 17:23:59.631     8     9 GX0   CBuddyWindow::OnTimer(): [OnlineState] System is back to active
+2016/01/15 17:24:00.017     8     9 GX0   CBuddyWindow::SetAccountVisibilityTimer(): [OnlineState] ResultCB, state changed to: 0
+2016/01/15 17:24:00.103     8    44 GX0   CLoginClient::AuthenticateClient()
+2016/01/15 17:24:00.219     8    44 GX0   VoIP: using pipeline factory async = 1
+2016/01/15 17:24:00.220     8    44 GX0   VoIP: Receiver: VoiceReceiverAudioPipeline: Building pipeline finished
+2016/01/15 17:24:00.231     8    22 GX0   Mixer: Device added: alsa_output.pci-0000_00_1b.0.analog-stereo, Built-in Audio Analog Stereo {47a6ec9c-0926-5233-b1a1-d125eb058546}
+2016/01/15 17:24:00.231     8    22 GX0   Mixer: Device added: alsa_input.pci-0000_00_1b.0.analog-stereo, Built-in Audio Analog Stereo {4f128769-8fee-5b51-8080-a60fdb1820f7}
+2016/01/15 17:24:00.344     8    44 GX0   VoIP: Receiver: VoiceReceiverAudioPipeline: VoiceReceiverAudioPipeline RegisterPlaybackDataObserver
+2016/01/15 17:24:00.345     8    44 GX0   RA: RemoteAudioReceiver::Factory started
+2016/01/15 17:24:00.346     8    44 GX0   Resetting Cache. Cache disabled.
+2016/01/15 17:24:00.346     8    44 GX0   Default keyboard layout: 04090409
+2016/01/15 17:24:00.347     8    44 GX0   ClientSessionrecorder: Autostart recording function called but not activated.
+2016/01/15 17:24:00.347     8    44 GX0   Client: RemoteDesktop 020A3DE8 created (rdp-id = 0)
+2016/01/15 17:24:00.385     8     9 GX0   CClientWindow::OnCreate(): Local display is 1680x1050
+2016/01/15 17:24:00.622     8    51 GX0   ClientThread started
+2016/01/15 17:24:00.623     8    51 GX0   ClientThread: Waiting for ParticipantManager synchronization
+2016/01/15 17:24:00.626     8    44 GX0   CLogin::run() leave
+2016/01/15 17:24:00.629     8    25 GX0   CParticipantManagerBase participant Ryan Fredlund (ID [459521443,-1971286098]) was added with the role 6
+2016/01/15 17:24:00.629     8    25 GX0   New Participant added in CParticipantManager Ryan Fredlund ([459521443,-1971286098])
+2016/01/15 17:24:00.630     8    25 GX0   ClientSessionrecorder: Autostart recording function called but not activated.
+2016/01/15 17:24:00.630     8    26 GX0   CParticipantManagerBase participant Ryan Fredlund (1) (ID [355528300,1544904010]) was added with the role 3
+2016/01/15 17:24:00.630     8    26 GX0   New Participant added in CParticipantManager Ryan Fredlund (1) ([355528300,1544904010])
+2016/01/15 17:24:00.631     8    26 GX0   ClientSessionrecorder: Autostart recording function called but not activated.
+2016/01/15 17:24:00.631     8    46 GX0    VoIP: Receiver: Participant channel "IMAC (355 528 300)" [355528300,1544904010]: VoIPBCommandReceiver: created
+2016/01/15 17:24:00.632     8    46 GX0   VoIP: Receiver: Channel created for participant [355528300,1544904010] called "IMAC (355 528 300)" [355528300,1544904010]
+2016/01/15 17:24:00.636     8    51 GX0!!!DataTransceiver.CallGuiCallback: callback empty
+2016/01/15 17:24:00.637     8    28 GX0   CParticipantManagerBase::CheckAndSubscribeNewStream(): Subscribe stream now streamID=1 type=5 required=1 supported=1
+2016/01/15 17:24:00.637     8    51 GX0   Client connection to 355528300, server version is 10.0.47484 , OS=19 Participant=[355528300,1544904010]
+2016/01/15 17:24:00.638     8    51 GX0   Client::SendInfo, resolution settings: mode = 1, width = 0, height = 0, selected monitor = 0
+2016/01/15 17:24:00.639     8    51 GX0   ConnectionAccessSettings: RCAccessControl: RemoteControl='Allowed', FileTransfer='Allowed', ControlRemoteTV='Allowed', SwitchSides='Allowed', AllowDisableRemoteInput='Allowed', AllowVPN='Allowed', AllowPartnerViewDesktop='Allowed', ShareMyFiles='Allowed', ShareFilesWithMe='Allowed', PrintOnMyPrinters='Allowed', PrintOnRemotePrinters='Allowed'
+2016/01/15 17:24:00.640     8    51 GX0   Client connection to 355528300, server version is 10.0.47484 , OS=19 Participant=[355528300,1544904010]
+2016/01/15 17:24:00.640     8    51 GX0   Client::SendInfo, resolution settings: mode = 1, width = 0, height = 0, selected monitor = 0
+2016/01/15 17:24:00.791     8    51 GX0!!!DataTransceiver.CallGuiCallback: callback empty
+2016/01/15 17:24:00.888     8    28 GX0   RemoteDesktop 020A3DE8: StreamID=4
+2016/01/15 17:24:00.932     8    51 GX0   Server display is 1920x1080x8, quali=100, monitors=0/2, sw=0, tilsize=0, scaling=1
+2016/01/15 17:24:00.992     8    51 GX0   Caching activated, partners version is 2, own version is 2
+2016/01/15 17:24:00.992     8    51 GX0   Compress: Caching active, partners version is 2, own version is 2
+2016/01/15 17:24:00.992     8    51 GX0   RA: Audio client initiated with [ch = 1, sr = 48000]
+2016/01/15 17:24:01.344     8    49 GX0   MM: Number of Audio Devices changed
+2016/01/15 17:24:10.965     8    51 GX0   Server display is 1920x1080x32, quali=95, monitors=0/2, sw=0, tilsize=64, scaling=1
+2016/01/15 17:24:11.688     8    51 GX0   RA: Audio client initiated with [ch = 2, sr = 48000]
+2016/01/15 17:27:45.944     8    51 GX0   Server display is 1920x1080x32, quali=95, monitors=1/2, sw=0, tilsize=64, scaling=1
+2016/01/15 17:38:45.540     8     9 GX0   CBuddyWindow::OnTimer(): [OnlineState] System is idle. TimeUntilIdle: 300 seconds
+2016/01/15 17:38:45.858     8     9 GX0   CBuddyWindow::SetAccountVisibilityTimer(): [OnlineState] ResultCB, state changed to: 2
+2016/01/15 17:38:49.005     8     9 GX0   CMainWindow::TrackIdleTime(): System goes idle. (IdleTime=304108)
+2016/01/15 17:42:14.218     8     9 GX0   CBuddyWindow::OnTimer(): [OnlineState] System is back to active
+2016/01/15 17:42:14.507     8     9 GX0   CBuddyWindow::SetAccountVisibilityTimer(): [OnlineState] ResultCB, state changed to: 0
+2016/01/15 18:11:35.925     8     9 GX0   Connection closed by user
+2016/01/15 18:11:36.025     8     9 GX0   VoIP: Receiver: Terminate
+2016/01/15 18:11:36.026     8    28 GX0   VoIP: Receiver: ThreadPool:StopThreads
+2016/01/15 22:23:00.257  2039  606582592 gX0   Logger started.
+2016/01/15 22:23:00.348  2039  606582592 gX0   Found 7 core dump files ...
+2016/01/15 22:23:00.408  2039  606582592 gX0   systemd: logind service available
+2016/01/15 22:23:00.412  2039  606582592 gX0   systemd: New seat seat0 [path=/org/freedesktop/login1/seat/seat0, activeSession='c2', canGraphical=1, canTTY=1, canMultiSession=1]
+2016/01/15 22:23:00.415  2039  606582592 gX0   SystemdSessionInfo: New session SystemdSessionInfo [id=c2 user=ryan state=user active=1 reliable=1 infoId=0] [path=/org/freedesktop/login1/session/c2 TTY= seat=seat0 display=:0 vtnr=7 owner=[SysUser_Lin: ryan [uid=1000, gid=1000 home=/home/ryan gecos=ryan,,, shell=/usr/bin/zsh]] idle=0(0) active=1 type=x11 class=user state=active timestamp=1452918128842082 service=lightdm defaultCG= leader=1318 audit=0 remote=0 rHost= rUser= killProc=0]
+2016/01/15 22:23:00.417  2039  606582592 gX0   SystemdSessionInfo: New session SystemdSessionInfo [id=c1 user=lightdm state=greeter active=0 reliable=1 infoId=1] [path=/org/freedesktop/login1/session/c1 TTY= seat=seat0 display=:0 vtnr=7 owner=[SysUser_Lin: lightdm [uid=106, gid=116 home=/var/lib/lightdm gecos=Light Display Manager shell=/bin/false]] idle=0(0) active=0 type=x11 class=greeter state=closing timestamp=1452918096283678 service=lightdm-greeter defaultCG= leader=945 audit=0 remote=0 rHost= rUser= killProc=0]
+2016/01/15 22:23:00.417  2039  606582592 gX0   Session Information provided by systemd
+2016/01/15 22:23:00.417  2039  606582592 gX0   XSocket observer: watching /tmp/.X11-unix
+2016/01/15 22:23:00.417  2039  606582592 gX0   XSocket observer: adding XSession: 0
+2016/01/15 22:23:00.567  2039  606582592 gX0   Initialised XFixes extension (base=87 error=140)
+2016/01/15 22:23:00.567  2039  606582592 gX0   TVGuiSlave.64: Running
+2016/01/15 22:23:01.454  2042 4114257664 QX0   Logger started.
+2016/01/15 22:23:01.525  2042 4114257664 QX0   Found 4 core dump files ...
+2016/01/15 22:23:01.534  2042 4114257664 QX0   systemd: logind service available
+2016/01/15 22:23:01.536  2042 4114257664 QX0   systemd: New seat seat0 [path=/org/freedesktop/login1/seat/seat0, activeSession='c2', canGraphical=1, canTTY=1, canMultiSession=1]
+2016/01/15 22:23:01.538  2042 4114257664 QX0   SystemdSessionInfo: New session SystemdSessionInfo [id=c2 user=ryan state=user active=1 reliable=1 infoId=0] [path=/org/freedesktop/login1/session/c2 TTY= seat=seat0 display=:0 vtnr=7 owner=[SysUser_Lin: ryan [uid=1000, gid=1000 home=/home/ryan gecos=ryan,,, shell=/usr/bin/zsh]] idle=0(0) active=1 type=x11 class=user state=active timestamp=1452918128842082 service=lightdm defaultCG= leader=1318 audit=0 remote=0 rHost= rUser= killProc=0]
+2016/01/15 22:23:01.539  2042 4114257664 QX0   SystemdSessionInfo: New session SystemdSessionInfo [id=c1 user=lightdm state=greeter active=0 reliable=1 infoId=1] [path=/org/freedesktop/login1/session/c1 TTY= seat=seat0 display=:0 vtnr=7 owner=[SysUser_Lin: lightdm [uid=106, gid=116 home=/var/lib/lightdm gecos=Light Display Manager shell=/bin/false]] idle=0(0) active=0 type=x11 class=greeter state=closing timestamp=1452918096283678 service=lightdm-greeter defaultCG= leader=945 audit=0 remote=0 rHost= rUser= killProc=0]
+2016/01/15 22:23:01.539  2042 4114257664 QX0   Session Information provided by systemd
+2016/01/15 22:23:01.540  2042 4114257664 QX0   XSocket observer: watching /tmp/.X11-unix
+2016/01/15 22:23:01.540  2042 4114257664 QX0   XSocket observer: adding XSession: 0
+2016/01/15 22:23:01.547  2042 4114257664 QX0   TVGuiDelegate: Running
+2016/01/15 22:23:02.161  2039  526272256 gX0   Audio: PulseAudio enabled
+2016/01/15 22:23:02.165  2039  511428352 gX0   PulseAudio: Connected to server 'unix:/run/user/1000/pulse/native' (protocol version 30, library version 6.0.0
+2016/01/15 22:23:02.176  2039  606582592 gX0!  XSM: No X Session Management for current session available (yet)
+2016/01/15 22:23:02.205  2039  526272256 gX0   PulseAudio: Connection established
+2016/01/15 22:23:02.240  2039  511428352 gX0   PulseAudio: Exit main loop (0), err=-2
+2016/01/15 22:22:58.127     8    30 GX0   Logger started.
+2016/01/15 22:22:58.656     8    30 GX0!! SetProcessStartupOptions(): SetProcessDEPPolicy() failed! LE=120, Errorcode=12180
+2016/01/15 22:23:00.078     8    30 GX0   TVW X ErrorHandler org 7e668af0, def 7e4e40d0 cur 7d80c8d7
+2016/01/15 22:23:00.081     8    30 GX0   Wine: Wine DLL initialized
+2016/01/15 22:23:00.081     8    30 GX0   Wine: wine-1.6
+
+2016/01/15 22:23:00.083     8    30 GX0   TVW SID0: SpawnSlave: pid 0
+2016/01/15 22:23:00.087     8    30 GX0   TVW SID0: SpawnSlave: loading TVGuiSlave.64
+2016/01/15 22:23:00.187     8    30 GX0!! TVW ObserveFork(ID = 0): read 0, Errorcode=12180
+2016/01/15 22:23:00.288     8    30 GX0!! TVW ObserveFork(ID = 0): read 0, Errorcode=12180
+2016/01/15 22:23:00.349     8    30 GX0   TVW ObserveFork: OK
+2016/01/15 22:23:00.349     8    30 GX0   Wine: Spawned slave process with type 0
+2016/01/15 22:23:00.350     8    30 GX0   TVW SID1: SpawnSlave: pid 0
+2016/01/15 22:23:00.356     8    30 GX0   TVW SID1: SpawnSlave: loading TVGuiDelegate
+2016/01/15 22:23:00.457     8    30 GX0!! TVW ObserveFork(ID = 1): read 0, Errorcode=12180
+2016/01/15 22:23:00.557     8    30 GX0!! TVW ObserveFork(ID = 1): read 0, Errorcode=12180
+2016/01/15 22:23:00.657     8    30 GX0!! TVW ObserveFork(ID = 1): read 0, Errorcode=12180
+2016/01/15 22:23:00.757     8    30 GX0!! TVW ObserveFork(ID = 1): read 0, Errorcode=12180
+2016/01/15 22:23:00.858     8    30 GX0!! TVW ObserveFork(ID = 1): read 0, Errorcode=12180
+2016/01/15 22:23:00.958     8    30 GX0!! TVW ObserveFork(ID = 1): read 0, Errorcode=12180
+2016/01/15 22:23:01.059     8    30 GX0!! TVW ObserveFork(ID = 1): read 0, Errorcode=12180
+2016/01/15 22:23:01.159     8    30 GX0!! TVW ObserveFork(ID = 1): read 0, Errorcode=12180
+2016/01/15 22:23:01.259     8    30 GX0!! TVW ObserveFork(ID = 1): read 0, Errorcode=12180
+2016/01/15 22:23:01.360     8    30 GX0!! TVW ObserveFork(ID = 1): read 0, Errorcode=12180
+2016/01/15 22:23:01.460     8    30 GX0!! TVW ObserveFork(ID = 1): read 0, Errorcode=12180
+2016/01/15 22:23:01.525     8    30 GX0   TVW ObserveFork: OK
+2016/01/15 22:23:01.526     8    30 GX0   Wine: Spawned slave process with type 1
+2016/01/15 22:23:01.527     8    30 GX0   Starting GUI master for slave type 0
+2016/01/15 22:23:01.529     8    30 GX0   Starting GUI master for slave type 1
+2016/01/15 22:23:01.529     8    30 GX0   Slave connected to GUI master
+2016/01/15 22:23:01.548     8    30 GX0   Slave connected to GUI master
+2016/01/15 22:23:01.553     8    30 GX0   InterProcessBase::SecureNetwork created
+2016/01/15 22:23:01.615     8    30 GX0   Monitors: X11 Windowing System, \\.\DISPLAY1, 1680x1050 (0,0), flags=21, dpi=96
+                    
+                    
+                    
+Start:              2016/01/15 22:23:01.729 (UTC-6:00)
+Version:            10.0.46203 Dev 
+ID:                 0
+Loglevel:           LogAll (0)
+License:            0
+Server:             master16.teamviewer.com
+IC:                 0
+CPU:                x86 Family 6 Model 42 Stepping 7, GenuineIntel
+CPU extensions:     g9
+OS:                 Lx Ubuntu 15.10 (32-bit)
+IP:                 192.168.0.5
+Proxy-Settings:     Type=0 IP= User=
+AppPath:            C:\TeamViewer\TeamViewer.exe
+UserAccount:        ryan
+
+2016/01/15 22:23:01.945     8    30 GX0   CMain::LoadResourceDLLs(): No custom resource dll found
+2016/01/15 22:23:01.948     8    30 GX0   Win32_GUI::FontReallyExists: 'Segoe UI' found 0 matches.
+2016/01/15 22:23:01.949     8    30 GX0   Win32_GUI::FontReallyExists: 'Liberation Sans' found 4 matches.
+2016/01/15 22:23:01.961     8    30 GX0   InterProcessBase::StartTcpCommunicationInternal(): setting m_NetworkConnector to new TCP connector
+2016/01/15 22:23:01.961     8    30 GX0   Opening local TCP connection to 127.0.0.1:5939
+2016/01/15 22:23:01.962     8    30 GX0   Local TCP connection established
+2016/01/15 22:23:01.963     8    30 GX0   Process ID:  L 1822 /  W 8
+2016/01/15 22:23:02.150     8    30 GX0   MachineID m=0 - 1
+2016/01/15 22:23:02.157     8    30 GX0   SettingsIPCReception receive a SYNCHRONISE Settings command : UserSettings
+2016/01/15 22:23:02.158     8    30 GX0   Received Control_InitIPC_Response processtype=1
+2016/01/15 22:23:02.158     8    30 GX0   Received Control_InitIPC_Response runningProcesses=3
+2016/01/15 22:23:02.159     8    30 GX0   Control_InitIPC_Response: all processes 3 completely initialized
+2016/01/15 22:23:02.274     8    30 GX0   ProxySearch: no PAC script detected via WPAD
+2016/01/15 22:23:02.275     8    30 GX0   ProxySearch: no PAC script detected via WPAD
+2016/01/15 22:23:02.334     8     9 GX0!! GetSimpleDisplayCertNameFromFile: File 'C:\TeamViewer\tv_w32.dll' does not exist., Errorcode=2
+2016/01/15 22:23:02.334     8     9 GX0!! VerifyTeamViewerSignature() : WinVerifyTrust failed, result=2, Errorcode=2
+2016/01/15 22:23:02.334     8     9 GX0!! MachineHooks: Library not found, Errorcode=2
+2016/01/15 22:23:02.368     8     9 GX0   TVUpdate::Init() Version-URL: download.teamviewer.com/download/update/ Update-URL: download.teamviewer.com/download/update/
+2016/01/15 22:23:02.896     8     9 GX0   IncomingChatCommandRegistration::StartRegistration: registering for ready state properties
+2016/01/15 22:23:02.897     8     9 GX0!! DragDropRegistration: could not register window, HR=80040155
+2016/01/15 22:23:02.897     8     9 GX0   AccountLoginGUI::CreateLoginKey(): [OnlineState] System is set to Visible.
+2016/01/15 22:23:02.922     8     9 GX0   InitTrayIcon: waited 0s
+2016/01/15 22:23:02.923     8     9 GX0   Tray created!
+2016/01/15 22:23:02.929     8     9 GX0   CMainWindow::ShouldShowDynamicPassword(): dynPw=1 allowIncoming=1 id=459521443 ka=0 lanAllowed=0 lanOnly=0 networkState=1 showDynPwd=0
+2016/01/15 22:23:02.931     8    26 GX0   IDLabelContent::UpdateImpl() IDs changed: SessionID "459521443", TSUserID "0", ServerID "0"
+2016/01/15 22:23:03.060     8     9 GX0   Account::TryAutoLogin: enabled: 0
+2016/01/15 22:23:03.061     8     9 GX0!! ServerControl: RegisterPowerSettingNotification failed with error 0
+2016/01/15 22:23:03.191     8    27 GX0   InterProcessBase::SecureNetworkCallbackHandle created (RegistrationID: 0473a05f-6202-4506-b8b2-39e4e80efdec)
+2016/01/15 22:23:03.193     8    27 GX0   InterProcessBase::SecureNetworkCallbackHandle created (RegistrationID: 6f5b42d8-53e4-4c03-a9af-04229f73e32f)
+2016/01/15 22:23:03.193     8    27 GX0   IncomingChatCommandRegistration::RegisterIncomingCommands: Registered successfully for incoming commands (after 0 retries)
+2016/01/15 22:23:03.193     8    28 GX0   ChatRoomManager::ChatRoomManager: created
+2016/01/15 22:23:03.194     8    28 GX0   IncomingChatCommandRegistration::SetIncomingCommandCb: set incomingCommandCb
+2016/01/15 22:23:03.352  2039  494642944 gX0   PulseAudio: Connected to server 'unix:/run/user/1000/pulse/native' (protocol version 30, library version 6.0.0
+2016/01/15 22:23:03.352  2039  526272256 gX0   PulseAudio: Connection established
+2016/01/15 22:23:03.354     8    22 GX0   Mixer: Device added: alsa_output.pci-0000_00_1b.0.analog-stereo, Built-in Audio Analog Stereo {47a6ec9c-0926-5233-b1a1-d125eb058546}
+2016/01/15 22:23:03.354     8    22 GX0   Mixer: Device added: alsa_input.pci-0000_00_1b.0.analog-stereo, Built-in Audio Analog Stereo {4f128769-8fee-5b51-8080-a60fdb1820f7}
+2016/01/15 22:23:03.359  2039  494642944 gX0   PulseAudio: Exit main loop (0), err=-2
+2016/01/15 22:23:03.393     8     9 GX0   Account::UpdateState: KA = 1, active = 1
+2016/01/15 22:23:03.398     8     9 GX0   CMainWindow::ShouldShowDynamicPassword(): dynPw=1 allowIncoming=1 id=459521443 ka=1 lanAllowed=0 lanOnly=0 networkState=1 showDynPwd=1
+2016/01/15 22:23:03.403     8     9 GX0   Account::SetLoginState: new state: 2
+2016/01/15 22:23:43.338     8     9 GX0   Account::SetLoginState: new state: 3
+2016/01/15 22:23:43.409     8     9 GX0   AccountLogin::Start: Trying account authentication
+2016/01/15 22:23:44.147     8     9 GX0   AccountLogin::HandleChallenge: Try V2Login
+2016/01/15 22:23:44.530     8     9 GX0   AccountLogin::OnResponseSuccess: Authentication successful
+2016/01/15 22:23:44.531     8     9 GX0   Account::LoginInternal: Login with V2 Account
+2016/01/15 22:23:44.730     8     9 GX0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 18, CT: 23, CallbackID: {2b0f0718-cda8-43a9-8ab8-0b821a38aa99}
+2016/01/15 22:23:44.730     8     9 GX0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 23, Command Class: 18, Command UUID: {2b0f0718-cda8-43a9-8ab8-0b821a38aa99})
+2016/01/15 22:23:44.732     8     9 GX0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 18, CT: 24, CallbackID: {e1b89014-b6c4-4be2-a6c5-cc4bf46f4e49}
+2016/01/15 22:23:44.732     8     9 GX0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 24, Command Class: 18, Command UUID: {e1b89014-b6c4-4be2-a6c5-cc4bf46f4e49})
+2016/01/15 22:23:44.733     8     9 GX0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 18, CT: 25, CallbackID: {9fa92e29-f610-40d5-bc6e-45a8f4e43303}
+2016/01/15 22:23:44.733     8     9 GX0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 25, Command Class: 18, Command UUID: {9fa92e29-f610-40d5-bc6e-45a8f4e43303})
+2016/01/15 22:23:44.734     8     9 GX0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 18, CT: 1, CallbackID: {355f17b6-e07a-4622-b1a6-f1f1159150e4}
+2016/01/15 22:23:44.734     8     9 GX0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 1, Command Class: 18, Command UUID: {355f17b6-e07a-4622-b1a6-f1f1159150e4})
+2016/01/15 22:23:44.736     8     9 GX0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 14, CT: 5, CallbackID: {e050c065-4c7d-4fc0-99c6-685293abc87d}
+2016/01/15 22:23:44.736     8     9 GX0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 5, Command Class: 14, Command UUID: {e050c065-4c7d-4fc0-99c6-685293abc87d})
+2016/01/15 22:23:44.737     8     9 GX0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 14, CT: 7, CallbackID: {a7f941fd-362d-44f3-8dc0-d99081b7b616}
+2016/01/15 22:23:44.738     8     9 GX0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 7, Command Class: 14, Command UUID: {a7f941fd-362d-44f3-8dc0-d99081b7b616})
+2016/01/15 22:23:44.738     8     9 GX0   Account Login complete, inCompany = 0, with rights 0
+2016/01/15 22:23:44.740     8     9 GX0   Account::SetLoginState: new state: 4
+2016/01/15 22:23:44.802     8     9 GX0   ChatRoomManager::InitializeAccountChat: AccountId = 35710626
+2016/01/15 22:23:45.851     8    25 GX0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 14, CT: 13, CallbackID: {e6395d4f-a9f7-49f6-8eac-27973baa3889}
+2016/01/15 22:23:45.851     8    25 GX0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 13, Command Class: 14, Command UUID: {e6395d4f-a9f7-49f6-8eac-27973baa3889})
+2016/01/15 22:23:45.855     8    25 GX0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 14, CT: 15, CallbackID: {7f6eefca-d61b-4fe7-b437-617ff0086058}
+2016/01/15 22:23:45.855     8    25 GX0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 15, Command Class: 14, Command UUID: {7f6eefca-d61b-4fe7-b437-617ff0086058})
+2016/01/15 22:23:45.857     8    28 GX0   QueryRooms::Execute[queryChatRoomsResponseCb]: No rooms received
+2016/01/15 22:23:45.858     8    25 GX0   ChatRoomManager::QueryRoomsInternal[queryRoomsResultCb]: Success: Received no rooms
+2016/01/15 22:23:45.993     8     9 GX0   Trying connection to 355528300, mode = 1
+2016/01/15 22:23:45.995     8    34 GX0   CLogin::run()
+2016/01/15 22:23:46.399     8    34 GX0   CLoginClient::NegotiateVersionClient()
+2016/01/15 22:23:46.948     8    34 GX0   CLoginClient::AuthenticateClient()
+2016/01/15 22:23:58.641     8    34 GX0   VoIP: using pipeline factory async = 1
+2016/01/15 22:23:58.642     8    34 GX0   VoIP: Receiver: VoiceReceiverAudioPipeline: Building pipeline finished
+2016/01/15 22:23:58.649  2039  486250240 gX0   PulseAudio: Connected to server 'unix:/run/user/1000/pulse/native' (protocol version 30, library version 6.0.0
+2016/01/15 22:23:58.649  2039  526272256 gX0   PulseAudio: Connection established
+2016/01/15 22:23:58.650     8    22 GX0   Mixer: Device added: alsa_output.pci-0000_00_1b.0.analog-stereo, Built-in Audio Analog Stereo {47a6ec9c-0926-5233-b1a1-d125eb058546}
+2016/01/15 22:23:58.650     8    22 GX0   Mixer: Device added: alsa_input.pci-0000_00_1b.0.analog-stereo, Built-in Audio Analog Stereo {4f128769-8fee-5b51-8080-a60fdb1820f7}
+2016/01/15 22:23:58.764     8    34 GX0   VoIP: Receiver: VoiceReceiverAudioPipeline: VoiceReceiverAudioPipeline RegisterPlaybackDataObserver
+2016/01/15 22:23:58.765     8    34 GX0   RA: RemoteAudioReceiver::Factory started
+2016/01/15 22:23:58.765     8    34 GX0   Resetting Cache. Cache disabled.
+2016/01/15 22:23:58.766     8    34 GX0   Default keyboard layout: 04090409
+2016/01/15 22:23:58.766     8    34 GX0   ClientSessionrecorder: Autostart recording function called but not activated.
+2016/01/15 22:23:58.766     8    34 GX0   Client: RemoteDesktop 020D9928 created (rdp-id = 0)
+2016/01/15 22:23:58.801     8     9 GX0   CClientWindow::OnCreate(): Local display is 1680x1050
+2016/01/15 22:23:59.018     8    41 GX0   ClientThread started
+2016/01/15 22:23:59.020     8    34 GX0   CLogin::run() leave
+2016/01/15 22:23:59.021     8    41 GX0   ClientThread: Waiting for ParticipantManager synchronization
+2016/01/15 22:23:59.062     8    28 GX0   CParticipantManagerBase participant Ryan Fredlund (ID [459521443,331013016]) was added with the role 6
+2016/01/15 22:23:59.063     8    28 GX0   New Participant added in CParticipantManager Ryan Fredlund ([459521443,331013016])
+2016/01/15 22:23:59.063     8    28 GX0   ClientSessionrecorder: Autostart recording function called but not activated.
+2016/01/15 22:23:59.063     8    28 GX0   CParticipantManagerBase participant Ryan Fredlund (1) (ID [355528300,741407749]) was added with the role 3
+2016/01/15 22:23:59.063     8    28 GX0   New Participant added in CParticipantManager Ryan Fredlund (1) ([355528300,741407749])
+2016/01/15 22:23:59.063     8    28 GX0   ClientSessionrecorder: Autostart recording function called but not activated.
+2016/01/15 22:23:59.064     8    36 GX0    VoIP: Receiver: Participant channel "IMAC (355 528 300)" [355528300,741407749]: VoIPBCommandReceiver: created
+2016/01/15 22:23:59.064     8    36 GX0   VoIP: Receiver: Channel created for participant [355528300,741407749] called "IMAC (355 528 300)" [355528300,741407749]
+2016/01/15 22:23:59.078     8    28 GX0   CParticipantManagerBase::CheckAndSubscribeNewStream(): Subscribe stream now streamID=1 type=5 required=1 supported=1
+2016/01/15 22:23:59.080     8    41 GX0!!!DataTransceiver.CallGuiCallback: callback empty
+2016/01/15 22:23:59.081     8    41 GX0   Client connection to 355528300, server version is 10.0.47484 , OS=19 Participant=[355528300,741407749]
+2016/01/15 22:23:59.083     8    41 GX0   Client::SendInfo, resolution settings: mode = 1, width = 0, height = 0, selected monitor = 0
+2016/01/15 22:23:59.084     8    41 GX0   ConnectionAccessSettings: RCAccessControl: RemoteControl='Allowed', FileTransfer='Allowed', ControlRemoteTV='Allowed', SwitchSides='Allowed', AllowDisableRemoteInput='Allowed', AllowVPN='Allowed', AllowPartnerViewDesktop='Allowed', ShareMyFiles='Allowed', ShareFilesWithMe='Allowed', PrintOnMyPrinters='Allowed', PrintOnRemotePrinters='Allowed'
+2016/01/15 22:23:59.085     8    41 GX0   Client connection to 355528300, server version is 10.0.47484 , OS=19 Participant=[355528300,741407749]
+2016/01/15 22:23:59.085     8    41 GX0   Client::SendInfo, resolution settings: mode = 1, width = 0, height = 0, selected monitor = 0
+2016/01/15 22:23:59.092     8    41 GX0!!!DataTransceiver.CallGuiCallback: callback empty
+2016/01/15 22:23:59.093  2039  526272256 gX0   CClipboardChangeListener::RegisterForClipboardChanges
+2016/01/15 22:23:59.221     8    27 GX0   RemoteDesktop 020D9928: StreamID=4
+2016/01/15 22:23:59.442     8    41 GX0   Server display is 1920x1080x8, quali=100, monitors=0/2, sw=0, tilsize=0, scaling=1
+2016/01/15 22:23:59.503     8    41 GX0   Caching activated, partners version is 2, own version is 2
+2016/01/15 22:23:59.503     8    41 GX0   Compress: Caching active, partners version is 2, own version is 2
+2016/01/15 22:23:59.516     8    41 GX0   RA: Audio client initiated with [ch = 1, sr = 48000]
+2016/01/15 22:23:59.765     8    39 GX0   MM: Number of Audio Devices changed
+2016/01/15 22:24:00.665     8    41 GX0   RA: Audio client initiated with [ch = 2, sr = 48000]
+2016/01/15 22:24:00.666     8    41 GX0   Server display is 1920x1080x32, quali=95, monitors=0/2, sw=0, tilsize=64, scaling=1
+2016/01/15 22:24:13.840     8    41 GX0   Server display is 1920x1080x32, quali=95, monitors=1/2, sw=0, tilsize=64, scaling=1
+2016/01/16 00:07:45.710     8     9 GX0   CBuddyWindow::OnTimer(): [OnlineState] System is idle. TimeUntilIdle: 300 seconds
+2016/01/16 00:07:46.027     8     9 GX0   CBuddyWindow::SetAccountVisibilityTimer(): [OnlineState] ResultCB, state changed to: 2
+2016/01/16 00:08:02.897     8     9 GX0   CMainWindow::TrackIdleTime(): System goes idle. (IdleTime=318296)
+2016/01/16 00:55:21.182     8     9 GX0   CBuddyWindow::OnTimer(): [OnlineState] System is back to active
+2016/01/16 00:55:21.459     8     9 GX0   CBuddyWindow::SetAccountVisibilityTimer(): [OnlineState] ResultCB, state changed to: 0
+2016/01/16 00:56:45.105     8     9 GX0   Connection closed by user
+2016/01/16 00:56:45.158  2039  526272256 gX0   CClipboardChangeListener::UnregisterFromClipboardChanges
+2016/01/16 00:56:45.160     8    27 GX0   VoIP: Receiver: Terminate
+2016/01/16 00:56:45.160  2039  486250240 gX0   PulseAudio: Exit main loop (0), err=-2
+2016/01/16 00:56:45.163     8    25 GX0   VoIP: Receiver: ThreadPool:StopThreads
+2016/01/16 00:56:52.569  2039  511428352 gX0!! XClient fatal XIOError, Errorcode=11
+2016/01/16 00:56:53.241  2039  606582592 gX0   Process received SIGHUP from process: 1
+2016/01/16 15:18:52.409  1914 4261943104 gX0   Logger started.
+2016/01/16 15:18:52.468  1914 4261943104 gX0   Found 7 core dump files ...
+2016/01/16 15:18:52.474  1914 4261943104 gX0   systemd: logind service available
+2016/01/16 15:18:52.487  1914 4261943104 gX0   systemd: New seat seat0 [path=/org/freedesktop/login1/seat/seat0, activeSession='c2', canGraphical=1, canTTY=1, canMultiSession=1]
+2016/01/16 15:18:52.489  1914 4261943104 gX0   SystemdSessionInfo: New session SystemdSessionInfo [id=c1 user=lightdm state=greeter active=0 reliable=1 infoId=0] [path=/org/freedesktop/login1/session/c1 TTY= seat=seat0 display=:0 vtnr=7 owner=[SysUser_Lin: lightdm [uid=106, gid=116 home=/var/lib/lightdm gecos=Light Display Manager shell=/bin/false]] idle=0(0) active=0 type=x11 class=greeter state=closing timestamp=1452979026373466 service=lightdm-greeter defaultCG= leader=894 audit=0 remote=0 rHost= rUser= killProc=0]
+2016/01/16 15:18:52.491  1914 4261943104 gX0   SystemdSessionInfo: New session SystemdSessionInfo [id=c2 user=ryan state=user active=1 reliable=1 infoId=1] [path=/org/freedesktop/login1/session/c2 TTY= seat=seat0 display=:0 vtnr=7 owner=[SysUser_Lin: ryan [uid=1000, gid=1000 home=/home/ryan gecos=ryan,,, shell=/usr/bin/zsh]] idle=0(0) active=1 type=x11 class=user state=active timestamp=1452979070527386 service=lightdm defaultCG= leader=1123 audit=0 remote=0 rHost= rUser= killProc=0]
+2016/01/16 15:18:52.491  1914 4261943104 gX0   Session Information provided by systemd
+2016/01/16 15:18:52.492  1914 4261943104 gX0   XSocket observer: watching /tmp/.X11-unix
+2016/01/16 15:18:52.492  1914 4261943104 gX0   XSocket observer: adding XSession: 0
+2016/01/16 15:18:52.568  1914 4261943104 gX0   Initialised XFixes extension (base=87 error=140)
+2016/01/16 15:18:52.568  1914 4261943104 gX0   TVGuiSlave.64: Running
+2016/01/16 15:18:53.100  1917 4114626304 QX0   Logger started.
+2016/01/16 15:18:53.122  1917 4114626304 QX0   Found 5 core dump files ...
+2016/01/16 15:18:53.128  1917 4114626304 QX0   systemd: logind service available
+2016/01/16 15:18:53.130  1917 4114626304 QX0   systemd: New seat seat0 [path=/org/freedesktop/login1/seat/seat0, activeSession='c2', canGraphical=1, canTTY=1, canMultiSession=1]
+2016/01/16 15:18:53.132  1917 4114626304 QX0   SystemdSessionInfo: New session SystemdSessionInfo [id=c1 user=lightdm state=greeter active=0 reliable=1 infoId=0] [path=/org/freedesktop/login1/session/c1 TTY= seat=seat0 display=:0 vtnr=7 owner=[SysUser_Lin: lightdm [uid=106, gid=116 home=/var/lib/lightdm gecos=Light Display Manager shell=/bin/false]] idle=0(0) active=0 type=x11 class=greeter state=closing timestamp=1452979026373466 service=lightdm-greeter defaultCG= leader=894 audit=0 remote=0 rHost= rUser= killProc=0]
+2016/01/16 15:18:53.134  1917 4114626304 QX0   SystemdSessionInfo: New session SystemdSessionInfo [id=c2 user=ryan state=user active=1 reliable=1 infoId=1] [path=/org/freedesktop/login1/session/c2 TTY= seat=seat0 display=:0 vtnr=7 owner=[SysUser_Lin: ryan [uid=1000, gid=1000 home=/home/ryan gecos=ryan,,, shell=/usr/bin/zsh]] idle=0(0) active=1 type=x11 class=user state=active timestamp=1452979070527386 service=lightdm defaultCG= leader=1123 audit=0 remote=0 rHost= rUser= killProc=0]
+2016/01/16 15:18:53.134  1917 4114626304 QX0   Session Information provided by systemd
+2016/01/16 15:18:53.134  1917 4114626304 QX0   XSocket observer: watching /tmp/.X11-unix
+2016/01/16 15:18:53.134  1917 4114626304 QX0   XSocket observer: adding XSession: 0
+2016/01/16 15:18:53.143  1917 4114626304 QX0   TVGuiDelegate: Running
+2016/01/16 15:18:53.604  1914 4181632768 gX0   Audio: PulseAudio enabled
+2016/01/16 15:18:53.608  1914 4093638400 gX0   PulseAudio: Connected to server 'unix:/run/user/1000/pulse/native' (protocol version 30, library version 6.0.0
+2016/01/16 15:18:53.635  1914 4181632768 gX0   PulseAudio: Connection established
+2016/01/16 15:18:50.340     8    30 GX0   Logger started.
+2016/01/16 15:18:50.732     8    30 GX0!! SetProcessStartupOptions(): SetProcessDEPPolicy() failed! LE=120, Errorcode=12180
+2016/01/16 15:18:52.287     8    30 GX0   TVW X ErrorHandler org 7e683af0, def 7e4ff0d0 cur 7d8278d7
+2016/01/16 15:18:52.295     8    30 GX0   Wine: Wine DLL initialized
+2016/01/16 15:18:52.295     8    30 GX0   Wine: wine-1.6
+
+2016/01/16 15:18:52.296     8    30 GX0   TVW SID0: SpawnSlave: pid 0
+2016/01/16 15:18:52.303     8    30 GX0   TVW SID0: SpawnSlave: loading TVGuiSlave.64
+2016/01/16 15:18:52.403     8    30 GX0!! TVW ObserveFork(ID = 0): read 0, Errorcode=12180
+2016/01/16 15:18:52.469     8    30 GX0   TVW ObserveFork: OK
+2016/01/16 15:18:52.469     8    30 GX0   Wine: Spawned slave process with type 0
+2016/01/16 15:18:52.470     8    30 GX0   TVW SID1: SpawnSlave: pid 0
+2016/01/16 15:18:52.479     8    30 GX0   TVW SID1: SpawnSlave: loading TVGuiDelegate
+2016/01/16 15:18:52.579     8    30 GX0!! TVW ObserveFork(ID = 1): read 0, Errorcode=12180
+2016/01/16 15:18:52.679     8    30 GX0!! TVW ObserveFork(ID = 1): read 0, Errorcode=12180
+2016/01/16 15:18:52.780     8    30 GX0!! TVW ObserveFork(ID = 1): read 0, Errorcode=12180
+2016/01/16 15:18:52.880     8    30 GX0!! TVW ObserveFork(ID = 1): read 0, Errorcode=12180
+2016/01/16 15:18:52.980     8    30 GX0!! TVW ObserveFork(ID = 1): read 0, Errorcode=12180
+2016/01/16 15:18:53.081     8    30 GX0!! TVW ObserveFork(ID = 1): read 0, Errorcode=12180
+2016/01/16 15:18:53.123     8    30 GX0   TVW ObserveFork: OK
+2016/01/16 15:18:53.123     8    30 GX0   Wine: Spawned slave process with type 1
+2016/01/16 15:18:53.124     8    30 GX0   Starting GUI master for slave type 0
+2016/01/16 15:18:53.126     8    30 GX0   Slave connected to GUI master
+2016/01/16 15:18:53.126     8    30 GX0   Starting GUI master for slave type 1
+2016/01/16 15:18:53.138     8    30 GX0   InterProcessBase::SecureNetwork created
+2016/01/16 15:18:53.144     8    30 GX0   Slave connected to GUI master
+2016/01/16 15:18:53.207     8    30 GX0   Monitors: X11 Windowing System, \\.\DISPLAY1, 1366x768 (0,0), flags=21, dpi=96
+2016/01/16 15:18:53.207     8    30 GX0   Monitors: X11 Windowing System, \\.\DISPLAY1, 1680x1050 (-1680,-282), flags=21, dpi=96
+                    
+                    
+                    
+Start:              2016/01/16 15:18:53.248 (UTC-6:00)
+Version:            10.0.46203 Dev 
+ID:                 0
+Loglevel:           LogAll (0)
+License:            0
+Server:             master16.teamviewer.com
+IC:                 0
+CPU:                x86 Family 6 Model 42 Stepping 7, GenuineIntel
+CPU extensions:     g9
+OS:                 Lx Ubuntu 15.10 (32-bit)
+IP:                 192.168.0.5
+Proxy-Settings:     Type=0 IP= User=
+AppPath:            C:\TeamViewer\TeamViewer.exe
+UserAccount:        ryan
+
+2016/01/16 15:18:53.422     8    30 GX0   CMain::LoadResourceDLLs(): No custom resource dll found
+2016/01/16 15:18:53.423     8    30 GX0   Win32_GUI::FontReallyExists: 'Segoe UI' found 0 matches.
+2016/01/16 15:18:53.424     8    30 GX0   Win32_GUI::FontReallyExists: 'Liberation Sans' found 4 matches.
+2016/01/16 15:18:53.430     8    30 GX0   InterProcessBase::StartTcpCommunicationInternal(): setting m_NetworkConnector to new TCP connector
+2016/01/16 15:18:53.430     8    30 GX0   Opening local TCP connection to 127.0.0.1:5939
+2016/01/16 15:18:53.430     8    30 GX0   Local TCP connection established
+2016/01/16 15:18:53.431     8    30 GX0   Process ID:  L 1779 /  W 8
+2016/01/16 15:18:53.594     8    30 GX0   MachineID m=0 - 1
+2016/01/16 15:18:53.600     8    30 GX0   SettingsIPCReception receive a SYNCHRONISE Settings command : UserSettings
+2016/01/16 15:18:53.602     8    30 GX0   Received Control_InitIPC_Response processtype=1
+2016/01/16 15:18:53.602     8    30 GX0   Received Control_InitIPC_Response runningProcesses=3
+2016/01/16 15:18:53.602     8    30 GX0   Control_InitIPC_Response: all processes 3 completely initialized
+2016/01/16 15:18:53.671     8    30 GX0   ProxySearch: no PAC script detected via WPAD
+2016/01/16 15:18:53.671     8    30 GX0   ProxySearch: no PAC script detected via WPAD
+2016/01/16 15:18:53.676  1914 4261943104 gX0!  XSM: No X Session Management for current session available (yet)
+2016/01/16 15:18:53.681  1914 4093638400 gX0   PulseAudio: Exit main loop (0), err=-2
+2016/01/16 15:18:53.765     8     9 GX0!! GetSimpleDisplayCertNameFromFile: File 'C:\TeamViewer\tv_w32.dll' does not exist., Errorcode=2
+2016/01/16 15:18:53.766     8     9 GX0!! VerifyTeamViewerSignature() : WinVerifyTrust failed, result=2, Errorcode=2
+2016/01/16 15:18:53.766     8     9 GX0!! MachineHooks: Library not found, Errorcode=2
+2016/01/16 15:18:53.787     8     9 GX0   TVUpdate::Init() Version-URL: download.teamviewer.com/download/update/ Update-URL: download.teamviewer.com/download/update/
+2016/01/16 15:18:54.115     8     9 GX0   IncomingChatCommandRegistration::StartRegistration: registering for ready state properties
+2016/01/16 15:18:54.116     8     9 GX0!! DragDropRegistration: could not register window, HR=80040155
+2016/01/16 15:18:54.116     8     9 GX0   AccountLoginGUI::CreateLoginKey(): [OnlineState] System is set to Visible.
+2016/01/16 15:18:54.144     8     9 GX0   InitTrayIcon: waited 0s
+2016/01/16 15:18:54.145     8     9 GX0   Tray created!
+2016/01/16 15:18:54.150     8     9 GX0   CMainWindow::ShouldShowDynamicPassword(): dynPw=1 allowIncoming=1 id=459521443 ka=0 lanAllowed=0 lanOnly=0 networkState=1 showDynPwd=0
+2016/01/16 15:18:54.152     8    26 GX0   IDLabelContent::UpdateImpl() IDs changed: SessionID "459521443", TSUserID "0", ServerID "0"
+2016/01/16 15:18:54.177     8     9 GX0   Account::TryAutoLogin: enabled: 0
+2016/01/16 15:18:54.177     8     9 GX0!! ServerControl: RegisterPowerSettingNotification failed with error 0
+2016/01/16 15:18:54.425  1914 4076852992 gX0   PulseAudio: Connected to server 'unix:/run/user/1000/pulse/native' (protocol version 30, library version 6.0.0
+2016/01/16 15:18:54.425  1914 4181632768 gX0   PulseAudio: Connection established
+2016/01/16 15:18:54.426     8    22 GX0   Mixer: Device added: alsa_output.pci-0000_00_1b.0.analog-stereo, Built-in Audio Analog Stereo {47a6ec9c-0926-5233-b1a1-d125eb058546}
+2016/01/16 15:18:54.426     8    22 GX0   Mixer: Device added: alsa_input.pci-0000_00_1b.0.analog-stereo, Built-in Audio Analog Stereo {4f128769-8fee-5b51-8080-a60fdb1820f7}
+2016/01/16 15:18:54.426     8    33 GX0   MM: Number of Audio Devices changed
+2016/01/16 15:18:54.430  1914 4076852992 gX0   PulseAudio: Exit main loop (0), err=-2
+2016/01/16 15:18:54.497     8    25 GX0   InterProcessBase::SecureNetworkCallbackHandle created (RegistrationID: eaff875a-c810-4221-a5f6-8ea97bd443ec)
+2016/01/16 15:18:54.497     8     9 GX0   Account::UpdateState: KA = 1, active = 1
+2016/01/16 15:18:54.497     8     9 GX0   Account::SetLoginState: new state: 2
+2016/01/16 15:18:54.499     8    25 GX0   InterProcessBase::SecureNetworkCallbackHandle created (RegistrationID: 355dbe6f-1401-4c06-9410-6796d1d0b53e)
+2016/01/16 15:18:54.499     8    25 GX0   IncomingChatCommandRegistration::RegisterIncomingCommands: Registered successfully for incoming commands (after 0 retries)
+2016/01/16 15:18:54.499     8    27 GX0   ChatRoomManager::ChatRoomManager: created
+2016/01/16 15:18:54.499     8    27 GX0   IncomingChatCommandRegistration::SetIncomingCommandCb: set incomingCommandCb
+2016/01/16 15:18:54.508     8     9 GX0   CMainWindow::ShouldShowDynamicPassword(): dynPw=1 allowIncoming=1 id=459521443 ka=1 lanAllowed=0 lanOnly=0 networkState=1 showDynPwd=1
+2016/01/16 15:19:19.574     8     9 GX0   Account::SetLoginState: new state: 3
+2016/01/16 15:19:19.621     8     9 GX0   AccountLogin::Start: Trying account authentication
+2016/01/16 15:19:19.998     8     9 GX0   AccountLogin::HandleChallenge: Try V2Login
+2016/01/16 15:19:20.293     8     9 GX0!! AccountLogin::Error: Authentication failed with error 24
+2016/01/16 15:19:20.302     8     9 GX0   Account::SetLoginState: new state: 2
+2016/01/16 15:19:28.661     8     9 GX0   Account::SetLoginState: new state: 3
+2016/01/16 15:19:28.675     8     9 GX0   AccountLogin::Start: Trying account authentication
+2016/01/16 15:19:29.176     8     9 GX0   AccountLogin::HandleChallenge: Try V2Login
+2016/01/16 15:19:29.642     8     9 GX0   AccountLogin::OnResponseSuccess: Authentication successful
+2016/01/16 15:19:29.642     8     9 GX0   Account::LoginInternal: Login with V2 Account
+2016/01/16 15:19:29.837     8     9 GX0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 18, CT: 23, CallbackID: {48f42802-1a4e-4d32-a8d1-37673ad37720}
+2016/01/16 15:19:29.837     8     9 GX0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 23, Command Class: 18, Command UUID: {48f42802-1a4e-4d32-a8d1-37673ad37720})
+2016/01/16 15:19:29.838     8     9 GX0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 18, CT: 24, CallbackID: {8a8be9e6-a8bb-4239-a340-681a048e065c}
+2016/01/16 15:19:29.838     8     9 GX0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 24, Command Class: 18, Command UUID: {8a8be9e6-a8bb-4239-a340-681a048e065c})
+2016/01/16 15:19:29.839     8     9 GX0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 18, CT: 25, CallbackID: {c05471a3-2473-4fab-aa8d-0199f5254d64}
+2016/01/16 15:19:29.839     8     9 GX0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 25, Command Class: 18, Command UUID: {c05471a3-2473-4fab-aa8d-0199f5254d64})
+2016/01/16 15:19:29.840     8     9 GX0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 18, CT: 1, CallbackID: {f4094347-35db-46fa-bae3-0dc87cf28884}
+2016/01/16 15:19:29.840     8     9 GX0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 1, Command Class: 18, Command UUID: {f4094347-35db-46fa-bae3-0dc87cf28884})
+2016/01/16 15:19:29.847     8     9 GX0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 14, CT: 5, CallbackID: {019813c4-4e7e-4f8f-96ca-e0d0b9aeaf32}
+2016/01/16 15:19:29.848     8     9 GX0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 5, Command Class: 14, Command UUID: {019813c4-4e7e-4f8f-96ca-e0d0b9aeaf32})
+2016/01/16 15:19:29.849     8     9 GX0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 14, CT: 7, CallbackID: {1705fe46-c582-4880-8aea-a42700d59241}
+2016/01/16 15:19:29.849     8     9 GX0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 7, Command Class: 14, Command UUID: {1705fe46-c582-4880-8aea-a42700d59241})
+2016/01/16 15:19:29.850     8     9 GX0   Account Login complete, inCompany = 0, with rights 0
+2016/01/16 15:19:29.851     8     9 GX0   Account::SetLoginState: new state: 4
+2016/01/16 15:19:29.922     8     9 GX0   ChatRoomManager::InitializeAccountChat: AccountId = 35710626
+2016/01/16 15:19:30.763     8    25 GX0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 14, CT: 13, CallbackID: {a79558b2-492e-4d48-bf18-86a85218debd}
+2016/01/16 15:19:30.763     8    25 GX0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 13, Command Class: 14, Command UUID: {a79558b2-492e-4d48-bf18-86a85218debd})
+2016/01/16 15:19:30.766     8    25 GX0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 14, CT: 15, CallbackID: {da062381-faa3-46c4-85ca-5d1b01d44585}
+2016/01/16 15:19:30.766     8    25 GX0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 15, Command Class: 14, Command UUID: {da062381-faa3-46c4-85ca-5d1b01d44585})
+2016/01/16 15:19:31.016     8    28 GX0   QueryRooms::Execute[queryChatRoomsResponseCb]: No rooms received
+2016/01/16 15:19:31.017     8    25 GX0   ChatRoomManager::QueryRoomsInternal[queryRoomsResultCb]: Success: Received no rooms
+2016/01/16 15:24:30.103     8     9 GX0   CBuddyWindow::OnTimer(): [OnlineState] System is idle. TimeUntilIdle: 300 seconds
+2016/01/16 15:24:30.596     8     9 GX0   CBuddyWindow::SetAccountVisibilityTimer(): [OnlineState] ResultCB, state changed to: 2
+2016/01/16 15:24:54.117     8     9 GX0   CMainWindow::TrackIdleTime(): System goes idle. (IdleTime=325465)
+2016/01/16 15:26:30.694     8     9 GX0   CBuddyWindow::OnTimer(): [OnlineState] System is back to active
+2016/01/16 15:26:30.956     8     9 GX0   CBuddyWindow::SetAccountVisibilityTimer(): [OnlineState] ResultCB, state changed to: 0
+2016/01/16 15:26:49.197     8     9 GX0   Trying connection to 355528300, mode = 1
+2016/01/16 15:26:49.199     8    34 GX0   CLogin::run()
+2016/01/16 15:26:49.659     8    34 GX0   CLoginClient::NegotiateVersionClient()
+2016/01/16 15:26:50.890     8    34 GX0   CLoginClient::AuthenticateClient()
+2016/01/16 15:26:52.765     8    34 GX0   VoIP: using pipeline factory async = 1
+2016/01/16 15:26:52.766     8    34 GX0   VoIP: Receiver: VoiceReceiverAudioPipeline: Building pipeline finished
+2016/01/16 15:26:52.771  1914 4068460288 gX0   PulseAudio: Connected to server 'unix:/run/user/1000/pulse/native' (protocol version 30, library version 6.0.0
+2016/01/16 15:26:52.890     8    34 GX0   VoIP: Receiver: VoiceReceiverAudioPipeline: VoiceReceiverAudioPipeline RegisterPlaybackDataObserver
+2016/01/16 15:26:52.891     8    34 GX0   RA: RemoteAudioReceiver::Factory started
+2016/01/16 15:26:52.891     8    34 GX0   Resetting Cache. Cache disabled.
+2016/01/16 15:26:52.891     8    34 GX0   Default keyboard layout: 04090409
+2016/01/16 15:26:52.891     8    34 GX0   ClientSessionrecorder: Autostart recording function called but not activated.
+2016/01/16 15:26:52.891     8    34 GX0   Client: RemoteDesktop 020F2DD8 created (rdp-id = 0)
+2016/01/16 15:26:52.908     8     9 GX0   CClientWindow::OnCreate(): Local display is 1366x768
+2016/01/16 15:26:53.092     8    41 GX0   ClientThread started
+2016/01/16 15:26:53.093     8    41 GX0   ClientThread: Waiting for ParticipantManager synchronization
+2016/01/16 15:26:53.272  1914 4181632768 gX0   PulseAudio: Connection established
+2016/01/16 15:26:53.273     8    22 GX0   Mixer: Device added: alsa_output.pci-0000_00_1b.0.analog-stereo, Built-in Audio Analog Stereo {47a6ec9c-0926-5233-b1a1-d125eb058546}
+2016/01/16 15:26:53.273     8    22 GX0   Mixer: Device added: alsa_input.pci-0000_00_1b.0.analog-stereo, Built-in Audio Analog Stereo {4f128769-8fee-5b51-8080-a60fdb1820f7}
+2016/01/16 15:26:53.276     8    34 GX0   CLogin::run() leave
+2016/01/16 15:26:53.315     8    27 GX0   CParticipantManagerBase participant Ryan Fredlund (ID [459521443,-1471443980]) was added with the role 6
+2016/01/16 15:26:53.316     8    27 GX0   New Participant added in CParticipantManager Ryan Fredlund ([459521443,-1471443980])
+2016/01/16 15:26:53.316     8    27 GX0   ClientSessionrecorder: Autostart recording function called but not activated.
+2016/01/16 15:26:53.317     8    25 GX0   CParticipantManagerBase participant Ryan Fredlund (1) (ID [355528300,-580120853]) was added with the role 3
+2016/01/16 15:26:53.317     8    25 GX0   New Participant added in CParticipantManager Ryan Fredlund (1) ([355528300,-580120853])
+2016/01/16 15:26:53.318     8    25 GX0   ClientSessionrecorder: Autostart recording function called but not activated.
+2016/01/16 15:26:53.318     8    37 GX0    VoIP: Receiver: Participant channel "IMAC (355 528 300)" [355528300,-580120853]: VoIPBCommandReceiver: created
+2016/01/16 15:26:53.318     8    37 GX0   VoIP: Receiver: Channel created for participant [355528300,-580120853] called "IMAC (355 528 300)" [355528300,-580120853]
+2016/01/16 15:26:53.342     8    41 GX0!!!DataTransceiver.CallGuiCallback: callback empty
+2016/01/16 15:26:53.343     8    27 GX0   CParticipantManagerBase::CheckAndSubscribeNewStream(): Subscribe stream now streamID=1 type=5 required=1 supported=1
+2016/01/16 15:26:53.343     8    41 GX0   Client connection to 355528300, server version is 10.0.47484 , OS=19 Participant=[355528300,-580120853]
+2016/01/16 15:26:53.343     8    41 GX0   Client::SendInfo, resolution settings: mode = 1, width = 0, height = 0, selected monitor = 0
+2016/01/16 15:26:53.344     8    41 GX0   ConnectionAccessSettings: RCAccessControl: RemoteControl='Allowed', FileTransfer='Allowed', ControlRemoteTV='Allowed', SwitchSides='Allowed', AllowDisableRemoteInput='Allowed', AllowVPN='Allowed', AllowPartnerViewDesktop='Allowed', ShareMyFiles='Allowed', ShareFilesWithMe='Allowed', PrintOnMyPrinters='Allowed', PrintOnRemotePrinters='Allowed'
+2016/01/16 15:26:53.347     8    41 GX0   Client connection to 355528300, server version is 10.0.47484 , OS=19 Participant=[355528300,-580120853]
+2016/01/16 15:26:53.348     8    41 GX0   Client::SendInfo, resolution settings: mode = 1, width = 0, height = 0, selected monitor = 0
+2016/01/16 15:26:53.359     8    41 GX0!!!DataTransceiver.CallGuiCallback: callback empty
+2016/01/16 15:26:53.372  1914 4181632768 gX0   CClipboardChangeListener::RegisterForClipboardChanges
+2016/01/16 15:26:53.451     8    27 GX0   RemoteDesktop 020F2DD8: StreamID=4
+2016/01/16 15:26:53.582     8    41 GX0   Server display is 1920x1080x8, quali=100, monitors=0/2, sw=0, tilsize=0, scaling=1
+2016/01/16 15:26:53.634     8    41 GX0   Caching activated, partners version is 2, own version is 2
+2016/01/16 15:26:53.634     8    41 GX0   Compress: Caching active, partners version is 2, own version is 2
+2016/01/16 15:26:53.647     8    41 GX0   RA: Audio client initiated with [ch = 1, sr = 48000]
+2016/01/16 15:26:53.891     8    39 GX0   MM: Number of Audio Devices changed
+2016/01/16 15:27:03.542     8    41 GX0   Server display is 1920x1080x32, quali=95, monitors=0/2, sw=0, tilsize=64, scaling=1
+2016/01/16 15:27:03.724     8    41 GX0   RA: Audio client initiated with [ch = 2, sr = 48000]
+2016/01/16 15:27:06.106     8    41 GX0   Server display is 1920x1080x32, quali=95, monitors=1/2, sw=0, tilsize=64, scaling=1
+2016/01/16 15:35:05.627     8     9 GX0   CBuddyWindow::OnTimer(): [OnlineState] System is idle. TimeUntilIdle: 300 seconds
+2016/01/16 15:35:05.899     8     9 GX0   CBuddyWindow::SetAccountVisibilityTimer(): [OnlineState] ResultCB, state changed to: 2
+2016/01/16 15:35:54.133     8     9 GX0   CMainWindow::TrackIdleTime(): System goes idle. (IdleTime=348790)
+2016/01/16 15:57:17.713  1914 4093638400 gX0   XClipboard: RequestClipboard as TARGETS (420)
+2016/01/16 15:57:17.715  1914 4093638400 gX0   XClipboard: RequestClipboard as UTF8_STRING (324)
+2016/01/16 15:57:17.716  1914 4093638400 gX0   XClipboard: Got clipboard as 'UTF8_STRING', size (n=31, c=62)
+2016/01/16 15:57:17.716  1914 4076852992 gX0   CClipboardController::SendClipboardContent: (1 data formats)
+2016/01/16 15:59:38.583  1914 4093638400 gX0   XClipboard: RequestClipboard as TARGETS (420)
+2016/01/16 15:59:38.584  1914 4093638400 gX0   XClipboard: RequestClipboard as UTF8_STRING (324)
+2016/01/16 15:59:38.584  1914 4093638400 gX0   XClipboard: Got clipboard as 'UTF8_STRING', size (n=31, c=62)
+2016/01/16 15:59:38.584  1914 4076852992 gX0   CClipboardController::SendClipboardContent: (1 data formats)
+2016/01/16 15:59:39.105     8     9 GX0   CBuddyWindow::OnTimer(): [OnlineState] System is back to active
+2016/01/16 15:59:39.726     8     9 GX0   CBuddyWindow::SetAccountVisibilityTimer(): [OnlineState] ResultCB, state changed to: 0
+2016/01/16 16:20:03.096     8     9 GX0   CBuddyWindow::OnTimer(): [OnlineState] System is idle. TimeUntilIdle: 300 seconds
+2016/01/16 16:20:03.573     8     9 GX0   CBuddyWindow::SetAccountVisibilityTimer(): [OnlineState] ResultCB, state changed to: 2
+2016/01/16 16:20:54.116     8     9 GX0   CMainWindow::TrackIdleTime(): System goes idle. (IdleTime=351393)
+2016/01/16 16:27:58.140     8     9 GX0   CBuddyWindow::OnTimer(): [OnlineState] System is back to active
+2016/01/16 16:27:58.390     8     9 GX0   CBuddyWindow::SetAccountVisibilityTimer(): [OnlineState] ResultCB, state changed to: 0
+2016/01/16 16:28:31.621     8     9 GX0   TVW X Error 8 on ???, Req 42.0 (#3343 r46137375): BadMatch (invalid parameter attributes)
+2016/01/16 16:37:42.663     8     9 GX0   CBuddyWindow::OnTimer(): [OnlineState] System is idle. TimeUntilIdle: 300 seconds
+2016/01/16 16:37:43.112     8     9 GX0   CBuddyWindow::SetAccountVisibilityTimer(): [OnlineState] ResultCB, state changed to: 2
+2016/01/16 16:37:54.117     8     9 GX0   CMainWindow::TrackIdleTime(): System goes idle. (IdleTime=312550)
+2016/01/16 16:40:19.158     8     9 GX0   CBuddyWindow::OnTimer(): [OnlineState] System is back to active
+2016/01/16 16:40:19.423     8     9 GX0   CBuddyWindow::SetAccountVisibilityTimer(): [OnlineState] ResultCB, state changed to: 0
+2016/01/16 16:46:30.034  1914 4093638400 gX0   XClipboard: RequestClipboard as TARGETS (420)
+2016/01/16 16:46:30.035  1914 4093638400 gX0   XClipboard: RequestClipboard as UTF8_STRING (324)
+2016/01/16 16:46:30.036  1914 4093638400 gX0   XClipboard: Got clipboard as 'UTF8_STRING', size (n=64, c=128)
+2016/01/16 16:46:30.036  1914 4076852992 gX0   CClipboardController::SendClipboardContent: (1 data formats)
+2016/01/16 16:46:31.154  1914 4093638400 gX0   XClipboard: RequestClipboard as TARGETS (420)
+2016/01/16 16:46:31.155  1914 4093638400 gX0   XClipboard: RequestClipboard as UTF8_STRING (324)
+2016/01/16 16:46:31.156  1914 4093638400 gX0   XClipboard: Got clipboard as 'UTF8_STRING', size (n=64, c=128)
+2016/01/16 16:46:31.156  1914 4076852992 gX0   CClipboardController::SendClipboardContent: (1 data formats)
+2016/01/16 16:46:31.410  1914 4093638400 gX0   XClipboard: RequestClipboard as TARGETS (420)
+2016/01/16 16:46:31.412  1914 4093638400 gX0   XClipboard: RequestClipboard as UTF8_STRING (324)
+2016/01/16 16:46:31.413  1914 4093638400 gX0   XClipboard: Got clipboard as 'UTF8_STRING', size (n=64, c=128)
+2016/01/16 16:46:31.602  1914 4093638400 gX0   XClipboard: RequestClipboard as TARGETS (420)
+2016/01/16 16:46:31.603  1914 4093638400 gX0   XClipboard: RequestClipboard as UTF8_STRING (324)
+2016/01/16 16:46:31.604  1914 4093638400 gX0   XClipboard: Got clipboard as 'UTF8_STRING', size (n=64, c=128)
+2016/01/16 16:46:32.157  1914 4076852992 gX0   CClipboardController::SendClipboardContent: (1 data formats)
+2016/01/16 16:49:34.872  1914 4093638400 gX0   XClipboard: RequestClipboard as TARGETS (420)
+2016/01/16 16:49:34.876  1914 4093638400 gX0   XClipboard: RequestClipboard as UTF8_STRING (324)
+2016/01/16 16:49:34.880  1914 4093638400 gX0   XClipboard: Got clipboard as 'UTF8_STRING', size (n=64, c=128)
+2016/01/16 16:49:34.880  1914 4076852992 gX0   CClipboardController::SendClipboardContent: (1 data formats)
+2016/01/16 16:58:00.059  1914 4093638400 gX0   XClipboard: RequestClipboard as TARGETS (420)
+2016/01/16 16:58:00.061  1914 4093638400 gX0   XClipboard: RequestClipboard as text/html (607)
+2016/01/16 16:58:00.061  1914 4093638400 gX0   XClipboard: RequestClipboard as UTF8_STRING (324)
+2016/01/16 16:58:00.062  1914 4093638400 gX0   XClipboard: Got clipboard as 'text/html', size (n=340, c=340)
+2016/01/16 16:58:00.062  1914 4076852992 gX0   CClipboardController::SendClipboardContent: (2 data formats)
+2016/01/16 16:58:00.062  1914 4093638400 gX0   XClipboard: Got clipboard as 'UTF8_STRING', size (n=44, c=88)
+2016/01/16 16:58:01.063  1914 4076852992 gX0   CClipboardController::SendClipboardContent: (2 data formats)
+2016/01/16 16:58:44.086  1914 4093638400 gX0   XClipboard: RequestClipboard as TARGETS (420)
+2016/01/16 16:58:44.087  1914 4093638400 gX0   XClipboard: RequestClipboard as text/html (607)
+2016/01/16 16:58:44.087  1914 4093638400 gX0   XClipboard: RequestClipboard as UTF8_STRING (324)
+2016/01/16 16:58:44.087  1914 4093638400 gX0   XClipboard: Got clipboard as 'text/html', size (n=340, c=340)
+2016/01/16 16:58:44.087  1914 4076852992 gX0   CClipboardController::SendClipboardContent: (2 data formats)
+2016/01/16 16:58:44.087  1914 4093638400 gX0   XClipboard: Got clipboard as 'UTF8_STRING', size (n=44, c=88)
+2016/01/16 16:58:45.088  1914 4076852992 gX0   CClipboardController::SendClipboardContent: (2 data formats)
+2016/01/16 17:01:40.112     8     9 GX0   Connection closed by user
+2016/01/16 17:01:40.115  1914 4181632768 gX0   CClipboardChangeListener::UnregisterFromClipboardChanges
+2016/01/16 17:01:40.219     8     9 GX0   VoIP: Receiver: Terminate
+2016/01/16 17:01:40.219  1914 4068460288 gX0   PulseAudio: Exit main loop (0), err=-2
+2016/01/16 17:01:40.219     8    28 GX0   VoIP: Receiver: ThreadPool:StopThreads
+2016/01/16 17:01:49.477     8    28 GX0   Received Control_TerminateProcess
+2016/01/16 17:01:49.478     8     9 GX0   CMainWindow::InitCloseTV(): Prepare to close TeamViewer
+2016/01/16 17:01:49.480     8     9 GX0   ChatRoomManager::OnGuiExitEvent: Reset account registration
+2016/01/16 17:01:49.480     8     9 GX0!! ServerControl: UnregisterPowerSettingNotification failed with error 0
+2016/01/16 17:01:49.495  1917 4114626304 QX0   Process received SIGTERM from process: 1
+2016/01/16 17:01:49.506  1914 4093638400 gX0!! XClient fatal XIOError, Errorcode=11
+2016/01/16 17:01:50.471  1914 4181632768 gX0!  TVGuiSlave.64: Socket closed on master
